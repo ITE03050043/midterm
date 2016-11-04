@@ -46,6 +46,8 @@ puts("recv failed");
 }
 puts("Reply received\n");
 puts(server_reply);
+if(server_reply=="Right number!!")
+	printf("123");
 
 }
 
